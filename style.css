@@ -299,7 +299,7 @@ body {
     }
 
     #view_all {
-        visibility: none;
+        visibility: hidden;
     }
 
     .nav {
@@ -360,11 +360,24 @@ body {
     #view_all {
         align-items: center;
         justify-content: center;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
         text-align: center;
     }
 
     .footer-bottom {
-        display: none;
+        visibility: hidden;
     }
+
+    .footer-content {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+
+    #view_all {
+        visibility: hidden;
+    }
+
 }
